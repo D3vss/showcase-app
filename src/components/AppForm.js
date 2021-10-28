@@ -9,13 +9,12 @@ function AppForm({ validationSchema, fieldsList, initialValues, onSubmit }) {
       validationSchema={validationSchema}
       onSubmit={onSubmit}
     >
-      {({ handleSubmit, handleChange }) => (
+      {({ handleSubmit }) => (
         <form onSubmit={handleSubmit}>
-          <>
-            {fieldsList.map((value) => (
-              <AppField type={value.type} name={value.name} />
-            ))}
-          </>
+          {fieldsList.map((value) => (
+            <AppField type={value.type} name={value.name} key={value.id} />
+          ))}
+          <input type="submit" value="Login" />
         </form>
       )}
     </Formik>

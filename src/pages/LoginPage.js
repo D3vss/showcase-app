@@ -3,8 +3,8 @@ import AppForm from "../components/AppForm";
 import * as Yup from "yup";
 
 const fieldsList = [
-  { name: "email", type: "text" },
-  { name: "password", type: "passowrd" },
+  { id: 1, name: "email", type: "text" },
+  { id: 2, name: "password", type: "password" },
 ];
 const initialValues = { name: "", password: "" };
 const validationSchema = Yup.object({
