@@ -6,7 +6,7 @@ const fieldsList = [
   { id: 1, name: "email", type: "text" },
   { id: 2, name: "password", type: "password" },
 ];
-const initialValues = { name: "", password: "" };
+const initialValues = { email: "", password: "" };
 const validationSchema = Yup.object({
   email: Yup.string()
     .email("Invalid Email!")

@@ -5,7 +5,7 @@ function AppField({ name, type }) {
   return (
     <label>
       {name} :
-      <input type={type} name={name} onChange={handleChange} />
+      <input type={type} name={name} defaultValue="" onChange={handleChange} />
       {touched[name] && errors[name] && <div>{errors[name]}</div>}
     </label>
   );
