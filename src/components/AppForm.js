@@ -11,6 +11,7 @@ function AppForm({
   initialValues,
   onSubmit,
   children,
+  buttonTitle,
 }) {
   return (
     <Formik
@@ -21,12 +22,17 @@ function AppForm({
       {({ handleSubmit }) => (
         <FormStyled onSubmit={handleSubmit}>
           {fieldsList.map((value) => (
-            <AppField type={value.type} name={value.name} key={value.id} />
+            <AppField
+              type={value.type}
+              name={value.name}
+              label={value.label}
+              key={value.id}
+            />
           ))}
 
           {children}
-          <AppButton className="Appbutton" type="submit">
-            Login
+          <AppButton className="Appbutton" type="submit" color="blue">
+            {buttonTitle}
           </AppButton>
         </FormStyled>
       )}
