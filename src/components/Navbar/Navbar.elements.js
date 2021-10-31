@@ -18,7 +18,7 @@ export const NavbarContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
   height: 80px;
-
+  align-items: center;
   ${Container}
 `;
 
@@ -27,5 +27,27 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 0;
+`;
+
+export const MobileIcon = styled.div`
+  display: none;
+  color: white;
+  @media screen and (max-width: 960px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
 `;
