@@ -5,3 +5,5 @@
 ## Technologies: ReactJS / NodeJS / MongoDB
 
 ## Front End : used react to create the layouts - styling used the Styled-components library
+
+## Assets: https://undraw.co/search
