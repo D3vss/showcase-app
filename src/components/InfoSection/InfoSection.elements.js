@@ -10,6 +10,7 @@ export const InfoRow = styled.div`
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   align-items: center;
+
   flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
 `;
 
@@ -36,4 +37,41 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
   }
+`;
+
+export const TopLine = styled.div`
+  color: ${({ toplineLight }) => (toplineLight ? "#fff" : "#4b59f7")};
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  margin-bottom: 16px;
+`;
+
+export const Heading = styled.h1`
+  margin-bottom: 24px;
+  font-size: 48px;
+  color: ${({ headingLight }) => (headingLight ? "#fff" : "#1c2237")};
+`;
+
+export const Subtitle = styled.p`
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  color: ${({ subtitleLight }) => (subtitleLight ? "#C9CCD5" : "#1c2237")};
+`;
+
+export const ImageWrapper = styled.div`
+  max-width: 555px;
+  display: flex;
+  justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
+`;
+
+export const Img = styled.img`
+  padding-right: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
 `;
