@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { Navbar } from "./components";
 import Home from "./pages/HomePage/Home";
+import LoginPage from "./pages/LoginPage/LoginPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyle />
       <Navbar />
       <Route path="/" exact component={Home} />
+      <Route path="/sign-up" exact component={LoginPage} />
     </Router>
   );
 }

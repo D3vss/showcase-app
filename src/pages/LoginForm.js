@@ -1,6 +1,6 @@
 import React from "react";
 import AppForm from "../components/AppForm";
-import { AppButton } from "../components/Styled Components/AppButton";
+import { Button } from "../globalStyles";
 
 import * as Yup from "yup";
 
