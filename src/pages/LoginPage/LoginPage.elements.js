@@ -35,3 +35,7 @@ export const LoginButton = styled.button`
   color: white;
   cursor: pointer;
 `;
+
+export const AppForm = styled.form`
+  width: 100%;
+`;
