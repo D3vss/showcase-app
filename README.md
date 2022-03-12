@@ -23,11 +23,11 @@ For the technologies used, I decided to develop the ***Front-end*** with **React
     * [For windows click here](https://nodejs.org/en/download/)
     * [For Linux click here](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/)
 
-- To start your react project: 
+- To start your react project: </br>
 ```npx create-react-app myReactApp ```
 
-- I used [Styled-components](https://www.npmjs.com/package/styled-components) library to easily create and style my components:
+- I used [Styled-components](https://www.npmjs.com/package/styled-components) library to easily create and style my components:</br>
 ``` npm i styled-components ``` 
 
-- [ExpressJS](https://www.npmjs.com/package/express) (*for the backend*) :
+- [ExpressJS](https://www.npmjs.com/package/express) (*for the backend*) :</br>
 ```npm i express```
