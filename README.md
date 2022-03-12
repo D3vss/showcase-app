@@ -4,20 +4,6 @@ The platform has the same purpose as LinkedIn, but with a much simpler and easy 
 ## Technologies: 
 For the technologies used, I decided to develop the ***Front-end*** with **React-JS**, The **Back-end** with **NodeJS** and I choose **Mongo-DB** as a database.
 
-## Assets: https://undraw.co/search
-
-## TO DO:
-
-- [x] Create the Home page
-- [x] Handle responsiveness
-- [ ] Create other pages
-    - [ ] Services
-    - [ ] Get in touch
-    - [ ] Sign up / Login
-- [ ] Set up the backend
-- [ ] Deployment
-
-
 ## Ressources:
 - Installing Node js : 
     * [For windows click here](https://nodejs.org/en/download/)
@@ -31,3 +17,22 @@ For the technologies used, I decided to develop the ***Front-end*** with **React
 
 - [ExpressJS](https://www.npmjs.com/package/express) (*for the backend*) :</br>
 ```npm i express```
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://www.npmjs.com/package/mongoose) to manage MongoDB: </br>
+```npm i mongoose```
+
+- Assets: </br>
+I got the graphics for free from  https://undraw.co/search
+
+## TO DO:
+
+- [x] Create the Home page
+- [x] Handle responsiveness
+- [ ] Create other pages
+    - [ ] Services
+    - [ ] Get in touch
+    - [ ] Sign up / Login
+- [ ] Set up the backend
+- [ ] Deployment
+
+
