@@ -19,7 +19,15 @@ For the technologies used, I decided to develop the ***Front-end*** with **React
 
 
 ## Ressources:
-Installing Node js : [For windows click here](https://nodejs.org/en/download/)
-Installing Docker : Click Here
-Starting systemd in WSL : Click Here
-Hypderledger doc : Click Here
+- Installing Node js : 
+    * [For windows click here](https://nodejs.org/en/download/)
+    * [For Linux click here](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/)
+
+- To start your react project: 
+```npx create-react-app myReactApp ```
+
+- I used [Styled-components](https://www.npmjs.com/package/styled-components) library to easily create and style my components:
+``` npm i styled-components ``` 
+
+- [ExpressJS](https://www.npmjs.com/package/express) (*for the backend*) :
+```npm i express```
